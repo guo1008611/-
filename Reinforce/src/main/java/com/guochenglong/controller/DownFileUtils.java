@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
     版权所有 违者必究
  *
  */
-public class DownFileUtils {		//文件的位置本地
+public class DownFileUtils {		//文件的位置本地															//需要下载文件的name
 	public static void download(String realPath,HttpServletRequest request,HttpServletResponse response,String filename) throws FileNotFoundException {
 		 /* // 下载本地文件
 	    String fileName = "Operator.doc".toString(); // 文件的默认保存名
