@@ -57,7 +57,32 @@
 			</tr>
 		</table>
 	</div>
-
+	
+	<form id="uploadForm"> 
+   <p>上传文件：<input type="file" name="file" /></p> 
+   
+   <input type="button" value="上传" onclick="upload()" /> 
+</form>
+	<script type="text/javascript">
+	function upload() { 
+		   var formData = new FormData($("#uploadForm")[0]); 
+		   $.ajax({ 
+		     url: 'aaa', 
+		     type: 'POST', 
+		     data: formData, 
+		     async: false,  //  异常
+		     cache: false,   // 译高速缓存
+		     contentType: false, 
+		     processData: false,   //   处理
+		     success: function(data) {
+		    	alert("chengg");
+		     }, 
+		     error: function(data) {   
+		    	 alert("dd");
+		     } 
+		   }); 
+		}
+	</script>
 
 </body>
 </html>

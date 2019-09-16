@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:43:19 +0800] "GET /xiazai HTTP/1.1" 200 593 http-bio-8090-exec-2 1333
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:43:19 +0800] "GET /resource/css/cms.css?v=1.1 HTTP/1.1" 200 1005 http-bio-8090-exec-1 93
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:43:19 +0800] "GET /resource/css/bootstrap.min.css HTTP/1.1" 200 144877 http-bio-8090-exec-3 98
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:43:19 +0800] "GET /resource/js/jquery-3.2.1.js HTTP/1.1" 304 - http-bio-8090-exec-4 94
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:43:19 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8090-exec-6 4
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:43:20 +0800] "GET /download?fileName=img24118dea-ab7a-40b2-a78b-c4135fa5f864.xlsx HTTP/1.1" 200 30429 http-bio-8090-exec-8 15
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:44:14 +0800] "GET /add HTTP/1.1" 200 1970 http-bio-8090-exec-9 209
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:44:16 +0800] "POST /dojiazai?pid=1 HTTP/1.1" 200 1745 http-bio-8090-exec-10 734
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:44:19 +0800] "POST /dojiazai?pid=5 HTTP/1.1" 200 730 http-bio-8090-exec-10 11
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:44:21 +0800] "POST /dojiazai?pid=65 HTTP/1.1" 200 461 http-bio-8090-exec-10 12
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:19:44:32 +0800] "POST /aaa HTTP/1.1" 200 14 http-bio-8090-exec-10 277

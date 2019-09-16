@@ -33,9 +33,19 @@
 
 	</properties>
 
+
 	<!-- 依赖管理，版本锁定 -->
 
 	<dependencies>
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator   姓名使用注解的时候  @Length  长度 -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.4.1.Final</version>
+		</dependency>
+		
+		
+		
 		<!-- 依赖第二周的工具类 -->
 		<dependency>
 
@@ -239,7 +249,7 @@
 				<version>2.2</version>
 				<configuration>
 				     <!-- 项目端口号 -->
-					<port>80</port>
+					<port>8090</port>
 					 <!-- 项目的访问路径 -->
 					<path>/</path>
 					<!-- get请求中文乱码 -->

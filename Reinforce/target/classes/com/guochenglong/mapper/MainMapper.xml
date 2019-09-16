@@ -5,4 +5,12 @@
 	<select id="list" resultType="City">
 		select * from  city where pid=${pid}
 	</select>
+	
+	<select id="getByUsername" resultType="User">
+		select * from  user where username=${username}
+	</select>
+	
+	<insert id="insert">
+		INSERT into user set username=#{username},hobby=#{hobby},site=#{site},password=#{password}
+	</insert>
 </mapper>
